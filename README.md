@@ -24,7 +24,7 @@ git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
 cd DYMO-LabelWriter-450-Drivers
 aclocal
 autoconf
-automake
+automake --add-missing
 ./configure
 make
 sudo make install
@@ -57,7 +57,7 @@ git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
 cd DYMO-LabelWriter-550-Driver
 aclocal
 autoconf
-automake
+automake --add-missing
 ./configure
 make
 sudo make install
