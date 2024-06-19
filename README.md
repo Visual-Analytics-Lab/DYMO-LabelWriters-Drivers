@@ -36,7 +36,7 @@ After doing either of the methods run the following command to open cups interfa
 
  `cupsctl WebInterface=Yes`
 
- Next, head to the web browser and go to navigate to https://localhost:631 or https://<your-ip-address>:631(most times:  https://127.0.0.1:631 should work)
+ Next, head to the web browser and go to navigate to https://localhost:631 or https://your-ip-address:631(most times:  https://127.0.0.1:631 should work)
 Navigate to Administration Tab and add DYMO LabelWriter 450 from the devices mentioned(make sure that the device is connected).
 Also, changes can be made in the default settings page to configure the printer according to the need.
 
