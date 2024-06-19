@@ -20,6 +20,8 @@ Run the following command for isntalling all teh drivers:
 Clone the Driver from github and cd into DYMO-LabelWriter-450 Folder, and run the following commands to install the drivers:
 
 ```
+git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
+cd DYMO-LabelWriter-450-Drivers
 aclocal
 autoconf
 automake
@@ -51,6 +53,8 @@ Run the following command to install cups libararies:
 Clone the Driver from github and cd into DYMO-LabelWriter-550 Folder, and run the following commands to install the drivers:
 
 ```
+git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
+cd DYMO-LabelWriter-550-Driver
 aclocal
 autoconf
 automake
