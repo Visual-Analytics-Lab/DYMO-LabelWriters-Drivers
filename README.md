@@ -4,7 +4,7 @@ Contains Drivers for runing DYMO LabelWriter 450 and DYMO LabelWriter 550
 ## DYMO LabelWriter 450 or Below
 
 ### Step1:
-Run the following command to install cups libararies:
+Run the following command to install cups libraries:
 
 `sudo apt-get install libcups2-dev libcupsimage2-dev gcc g++`
 ### Step 2:
