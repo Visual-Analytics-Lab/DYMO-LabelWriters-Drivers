@@ -1,22 +1,22 @@
 # DYMO-LabelWriters-Drivers
 Contains Drivers for runing DYMO LabelWriter 450 and DYMO LabelWriter 550
 
-##DYMO LabelWriter 450 or Below
+## DYMO LabelWriter 450 or Below
 
-###Step1:
+### Step1:
 Run the following command to install cups libararies:
 
 `sudo apt-get install libcups2-dev libcupsimage2-dev gcc g++`
-###Step 2:
+### Step 2:
 
 Do either of the methods to install the drivers for DYMO Label Writer 450 or below.
 
-###Method 1:
+### Method 1:
 Run the following command for isntalling all teh drivers:
 
 `sudo apt install printer-driver-dymo `
 
-###Method 2:
+### Method 2:
 Clone the Driver from github and cd into DYMO-LabelWriter-450 Folder, and run the following commands to install the drivers:
 
 ```
@@ -28,7 +28,7 @@ make
 sudo make install
 ```
 
-###Final Step:
+### Final Step:
 
 After doing either of the methods run the following command to open cups interface:
 
@@ -40,13 +40,13 @@ Also, changes can be made in the default settings page to configure the printer 
 
 Now you should be able to Print anything to DYMO LabelWriter 450 from anywhere.
 
-##DYMO LabelWriters 550
+## DYMO LabelWriters 550
 
-###Step1:
+### Step1:
 Run the following command to install cups libararies:
 
 `sudo apt-get install libcups2-dev libcupsimage2-dev gcc g++`
-###Step 2:
+### Step 2:
 
 Clone the Driver from github and cd into DYMO-LabelWriter-550 Folder, and run the following commands to install the drivers:
 
@@ -59,7 +59,7 @@ make
 sudo make install
 ```
 
-###Final Step:
+### Final Step:
 
 After doing either of the methods run the following command to open cups interface:
 
