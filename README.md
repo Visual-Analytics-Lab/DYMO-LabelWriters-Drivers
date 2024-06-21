@@ -4,7 +4,7 @@ Contains Drivers for runing DYMO LabelWriter 450 and DYMO LabelWriter 550
 ## DYMO LabelWriter 450 or Below
 
 ### Step1:
-Run the following command to install cups libararies:
+Run the following command to install cups libraries:
 
 `sudo apt-get install libcups2-dev libcupsimage2-dev gcc g++`
 ### Step 2:
@@ -12,7 +12,7 @@ Run the following command to install cups libararies:
 Do either of the methods to install the drivers for DYMO Label Writer 450 or below.
 
 ### Method 1:
-Run the following command for isntalling all teh drivers:
+Run the following command for installing all the drivers:
 
 `sudo apt install printer-driver-dymo `
 
@@ -24,7 +24,7 @@ git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
 cd DYMO-LabelWriter-450-Drivers
 aclocal
 autoconf
-automake
+automake --add-missing
 ./configure
 make
 sudo make install
@@ -36,7 +36,7 @@ After doing either of the methods run the following command to open cups interfa
 
  `cupsctl WebInterface=Yes`
 
- Next, head to the web browser and go to navigate to https://localhost:631 or https://<your-ip-address>:631(most times:  https://127.0.0.1:631 should work)
+Next, head to the web browser and go to navigate to https://localhost:631 or https://your-ip-address:631(most times:  https://127.0.0.1:631 should work)
 Navigate to Administration Tab and add DYMO LabelWriter 450 from the devices mentioned(make sure that the device is connected).
 Also, changes can be made in the default settings page to configure the printer according to the need.
 
@@ -57,7 +57,7 @@ git clone https://github.com/Visual-Analytics-Lab/DYMO-LabelWriters-Drivers
 cd DYMO-LabelWriter-550-Driver
 aclocal
 autoconf
-automake
+automake --add-missing
 ./configure
 make
 sudo make install
